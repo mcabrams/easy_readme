@@ -1,0 +1,13 @@
+from setuptools import setup
+
+setup(name='easy_readme',
+      version='0.1',
+      description='Generate a barebones readme based off of your directory',
+      url='http://github.com/mcabrams/easy_readme',
+      author='Matthew Carlos Abrams',
+      license='MIT',
+      packages=['easy_readme'],
+      zip_safe=False,
+      entry_points={
+          'console_scripts': ['easy-readme=easy_readme.command_line:main'],
+      })
