@@ -22,7 +22,13 @@ def generate_readme():
             'name': 'project_name',
             'message': "What's the name of your project?",
             'default': get_default_project_name(os.getcwd()),
-        }
+        },
+        {
+            'type': 'input',
+            'name': 'description',
+            'message': "What's a brief description of your project?",
+            'default': 'TODO',
+        },
     ]
 
     answers = prompt(questions)
