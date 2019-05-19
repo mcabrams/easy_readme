@@ -30,4 +30,4 @@ def generate_readme():
     markdown = answers_to_markdown(answers)
 
     with open('README.md', 'w') as filehandle:
-        filehandle.write(markdown)
+        filehandle.write(f'{markdown}\n')
