@@ -16,7 +16,7 @@ Answer a few quick questions
 ? What's a brief description of your project?  Blockchain and version control, what's not to love?
 ```
 You've got yourself a beautiful start for a README.md
-```sh
+
     cat README.md
     # Gitcoin
     > Blockchain and version control, what's not to love?
@@ -32,7 +32,7 @@ You've got yourself a beautiful start for a README.md
     ```sh
     #TODO
     ```
-```
+
 Create a git repo and start working on the important stuff!
 ```
 git init
