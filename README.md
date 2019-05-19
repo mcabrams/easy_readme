@@ -1,8 +1,15 @@
-README Generator
-----------------
-
-Hopefully someday I won't have to write another one of these by hand...
-
-
-## Getting started
-Run `docker-compose run app bash`, then `python -m unittest discover`.
+# Easy Readme
+> Always looking up markdown syntax?  Get a barebones README.md in seconds with one command.
+## Development Setup
+```sh
+docker-compose run app bash
+```
+## Running Tests
+```sh
+docker-compose run app bash
+python -m unittest discover
+```
+## Installing package
+```sh
+python easy_readme/setup.py install
+```
